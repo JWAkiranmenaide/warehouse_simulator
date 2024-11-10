@@ -26,6 +26,8 @@ setup(
         "gymnasium",
         "pyglet<2",
         "networkx",
+        "tqdm",
+        "six"
     ],
     extras_require={"test": ["pytest"]},
     include_package_data=True,
